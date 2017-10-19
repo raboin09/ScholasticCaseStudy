@@ -1,0 +1,38 @@
+    1  cd /etc/issue
+    2  ls
+    3  cat /etc/redhat-release
+    4  ps
+    5  cat /proc/11002/smaps
+    6  cat /proc/11033/smaps
+    7  vmstat -S M
+    8  top
+    9  /proc/3016/exe
+   10  /proc/3016
+   11  readlink -f /proc/3106/exe
+   12  ls
+   13  /proc/3106/exe
+   14  /proc/3106
+   15  ls -l /proc/3106/exe
+   16  realpath /proc/3106/exe
+   17  kill 3106
+   18  kill -9 3106
+   19  top
+   20  history
+   21  cd /root/
+   22  history >> history.txt
+   23  ls
+   24  cat history.txt
+   25  fdisk
+   26  uname
+   27  fdisk -l
+   28  df -h
+   29  free -m
+   30  cat /proc/cpuinfo
+   31  wget http://169.254.169.254/latest/meta-data/
+   32  ls
+   33  cd /etc/rsyslog.conf
+   34  cat /etc/rsyslog.conf
+   35  cat /var/lib/logrotate/status
+   36  ls /etc/logrotate.d
+   37  cat /etc/logrotate.conf
+   38  history >> history1019.txt
